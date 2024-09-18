@@ -211,7 +211,7 @@ export default function SortingHat() {
               onClick={resetGame}
             >
               <RefreshCw size={20} className="mr-2" />
-              Try Again
+              Try Again 😁
             </motion.button>
           ) : null}
         </div>
