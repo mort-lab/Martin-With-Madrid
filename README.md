@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorting Hat - Hogwarts House Selector
+
+## Introduction
+
+Welcome to the Sorting Hat project! This interactive web application simulates the experience of being sorted into a Hogwarts house, as seen in the Harry Potter series. Using a series of questions, the app determines which of the four houses (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin) best suits the user's personality and traits.
+
+## Features
+
+- Chat-like interface for a more immersive experience
+- Responsive design, working on screens from 320px to 3000px wide
+- Smooth animations for messages entering and exiting the chat
+- Dark mode toggle for improved user experience
+- Hogwarts house selection based on user responses
+
+## Technologies Used
+
+- Next.js 13 (React framework)
+- TypeScript
+- Tailwind CSS for styling
+- Framer Motion for animations
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/mort-lab/sorting-hat.git
+   cd sorting-hat
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Building for Production
+
+To create a production-ready build:
+
+```
+npm run build
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To start the production server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm start
+# or
+yarn start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Testing
 
-## Learn More
+The application has been tested on the following browsers:
 
-To learn more about Next.js, take a look at the following resources:
+- Safari on iPhone
+- Firefox on Windows/Linux
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For additional browser testing, you can use the BrowserStack free trial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions to improve the Sorting Hat project! Here are some guidelines for contributing:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository and create your branch from `main`.
+2. If you've added code that should be tested, add tests.
+3. Ensure the test suite passes.
+4. Make sure your code lints.
+5. Issue a pull request with a comprehensive description of changes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Code Style
+
+- Follow the existing code style and structure.
+- Use meaningful variable and function names.
+- Comment your code where necessary, especially for complex logic.
+
+### Commit Messages
+
+- Use clear and meaningful commit messages.
+- Start the commit message with a verb in the imperative mood (e.g., "Add feature" not "Added feature").
+
+### Pull Requests
+
+- Provide a clear description of the changes in your pull request.
+- Link any related issues.
+- Ensure all tests pass and the application runs without errors.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- J.K. Rowling for the Harry Potter universe
+- The Next.js team for the amazing framework
+- Contributors and maintainers of the libraries used in this project
+
+Thank you for your interest in contributing to the Sorting Hat project!
